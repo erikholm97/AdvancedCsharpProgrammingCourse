@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedCsharpProgrammingCourse", "AdvancedCsharpProgrammingCourse\AdvancedCsharpProgrammingCourse.csproj", "{59705882-A14E-4D71-9790-F5A6F74A4265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolHRAdministration", "SchoolHRAdministration\SchoolHRAdministration.csproj", "{76A26355-EBE7-4664-85C6-67D234F83F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRAdministrationAPI", "HRAdministrationAPI\HRAdministrationAPI.csproj", "{A957F8EE-13FD-46AE-ACF3-308C0C41310E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{59705882-A14E-4D71-9790-F5A6F74A4265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59705882-A14E-4D71-9790-F5A6F74A4265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59705882-A14E-4D71-9790-F5A6F74A4265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A26355-EBE7-4664-85C6-67D234F83F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A26355-EBE7-4664-85C6-67D234F83F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A26355-EBE7-4664-85C6-67D234F83F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A26355-EBE7-4664-85C6-67D234F83F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A957F8EE-13FD-46AE-ACF3-308C0C41310E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A957F8EE-13FD-46AE-ACF3-308C0C41310E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A957F8EE-13FD-46AE-ACF3-308C0C41310E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A957F8EE-13FD-46AE-ACF3-308C0C41310E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
