@@ -31,7 +31,7 @@ static void SeedData(List<IEmployee> employees)
     IEmployee deputyHeadMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.DeputyHeadMaster, 4, "Delvin", "Brown", 60000);
     employees.Add(deputyHeadMaster);
 
-    IEmployee headMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadMaster, 4, "Damien", "Jones", 80000);
+    IEmployee headMaster = EmployeeFactory.GetEmployeeInstance(EmployeeType.HeadMaster, 5, "Damien", "Jones", 80000);
     employees.Add(headMaster);
 }
 
@@ -73,7 +73,7 @@ public static class EmployeeFactory
                 employee = new DeputyHeadMaster() { Id = id, FirstName = firstName, LastName = lastName, Salary = salary };
                 break;
             case EmployeeType.HeadMaster:
-                employee = new DeputyHeadMaster() { Id = id, FirstName = firstName, LastName = lastName, Salary = salary };
+                employee = new HeadMaster() { Id = id, FirstName = firstName, LastName = lastName, Salary = salary };
                 break;
             default:
                 throw new ArgumentException();                
